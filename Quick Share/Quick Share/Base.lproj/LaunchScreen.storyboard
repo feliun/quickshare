@@ -20,10 +20,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images/polaroid.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yKe-m2-UDv"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Share" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAg-DJ-FCa">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.60392156862745094" green="0.082352941176470587" blue="0.6470588235294118" alpha="0.85153479609929073" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yKe-m2-UDv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="3Cv-TO-aME"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="zAg-DJ-FCa" secondAttribute="bottom" constant="69" id="STh-KZ-VDV"/>
+                            <constraint firstItem="zAg-DJ-FCa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gAN-Vp-L6P"/>
                             <constraint firstItem="yKe-m2-UDv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ikE-Zt-iAm"/>
                             <constraint firstAttribute="trailing" secondItem="yKe-m2-UDv" secondAttribute="trailing" id="l2h-Bu-FRk"/>
                             <constraint firstItem="yKe-m2-UDv" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.45" id="lOK-u2-W5b"/>
